@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+
+# outputs
+runs/
+logs/
+images/
+results/
+
+# built datasets (rebuild with slurm/prep_data.sbatch) and their offset indexes
+configs/*.jsonl
+configs/*.offsets.npz

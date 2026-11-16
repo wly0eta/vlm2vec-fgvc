@@ -1,0 +1,4 @@
+# CUB-200 train split (5,994 images, ~30 per class). Stage-2 fine-tuning data.
+cub200:
+  data_path: configs/cub200_train.jsonl
+  weight: 1.0

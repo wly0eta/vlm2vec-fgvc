@@ -1,0 +1,4 @@
+# Full iNaturalist 2021 train (2.7M images, long-tailed). Built by slurm/prep_data.sbatch.
+inat:
+  data_path: configs/inat_train.jsonl
+  weight: 1.0

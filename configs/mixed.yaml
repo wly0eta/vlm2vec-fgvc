@@ -1,0 +1,10 @@
+# VQA + FGVC mixture. Weights are each task's SHARE of an epoch (here 50/50), not
+# per-row weights: an epoch is 17k + 37k = 54k examples, 27k drawn from each task --
+# A-OKVQA is oversampled (~1.6 passes), sxj1215 iNat undersampled (~0.7), redrawn per epoch.
+aokvqa:
+  data_path: configs/aokvqa_train.jsonl
+  weight: 1.0
+
+inaturalist:
+  data_path: configs/inaturalist_train.jsonl
+  weight: 1.0

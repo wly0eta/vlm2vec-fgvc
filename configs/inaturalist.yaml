@@ -1,0 +1,4 @@
+# sxj1215/inaturalist (~37k images, chat format).
+inaturalist:
+  data_path: configs/inaturalist_train.jsonl
+  weight: 1.0

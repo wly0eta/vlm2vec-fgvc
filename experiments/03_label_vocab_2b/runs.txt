@@ -1,0 +1,5 @@
+q2b_inat_ep2
+q2b_inat_ep2__cub_mixed_2shot
+q2b_inat_ep2__cub_mixed_4shot
+q2b_inat_ep2__cub_mixed_10shot
+q2b_inat_ep2__cub_mixed_full

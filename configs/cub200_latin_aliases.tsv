@@ -1,0 +1,45 @@
+# Latin names for the 36 CUB-200 classes whose English name has no exact match among iNat-2021's
+# common names (the other 164 are mapped automatically, see build_dataset.py relabel).
+# Columns: CUB label (as cleaned in configs/cub200_val.jsonl) <TAB> scientific name <TAB> note
+# Notes: "rename"   = same species, iNat uses a different/newer English name
+#        "typo"     = CUB spelling differs
+#        "genus"    = CUB class is a genus or a lumped group; the genus name is used
+#        "dominant" = CUB class is ambiguous but its images are (almost) all this species
+#        "absent"   = species is not among iNat-2021's 10,000 classes; standard binomial used, in the
+#                     genus spelling iNat-2021 uses (e.g. Phalacrocorax, not Urile, for cormorants)
+Artic Tern	Sterna paradisaea	typo
+Baird Sparrow	Centronyx bairdii	absent
+Black capped Vireo	Vireo atricapilla	absent
+Cape Glossy Starling	Lamprotornis nitens	rename
+Cardinal	Cardinalis cardinalis	dominant
+Chuck will Widow	Antrostomus carolinensis	absent
+Crested Auklet	Aethia cristatella	absent
+European Goldfinch	Carduelis carduelis	rename
+Florida Jay	Aphelocoma coerulescens	rename
+Forsters Tern	Sterna forsteri	typo
+Frigatebird	Fregata	genus
+Geococcyx	Geococcyx californianus	dominant
+Green Violetear	Colibri thalassinus	absent
+Horned Puffin	Fratercula corniculata	absent
+Ivory Gull	Pagophila eburnea	absent
+Le Conte Sparrow	Ammospiza leconteii	typo
+Least Auklet	Aethia pusilla	absent
+Long tailed Jaeger	Stercorarius longicaudus	absent
+Mangrove Cuckoo	Coccyzus minor	absent
+Mockingbird	Mimus polyglottos	dominant
+Myrtle Warbler	Setophaga coronata	rename
+Nighthawk	Chordeiles minor	dominant
+Parakeet Auklet	Aethia psittacula	absent
+Pomarine Jaeger	Stercorarius pomarinus	absent
+Red faced Cormorant	Phalacrocorax urile	absent
+Red legged Kittiwake	Rissa brevirostris	absent
+Sayornis	Sayornis	genus
+Seaside Sparrow	Ammospiza maritima	absent
+Slaty backed Gull	Larus schistisagus	absent
+Sooty Albatross	Phoebetria fusca	absent
+Spotted Catbird	Ailuroedus melanotis	absent
+Swainson Warbler	Limnothlypis swainsonii	absent
+Tree Sparrow	Spizelloides arborea	dominant
+Whip poor Will	Antrostomus vociferus	absent
+White Pelican	Pelecanus erythrorhynchos	dominant
+White breasted Kingfisher	Halcyon smyrnensis	rename

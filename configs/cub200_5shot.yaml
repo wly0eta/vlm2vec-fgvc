@@ -1,0 +1,4 @@
+# CUB-200, 5 training images per class (1,000 images): the low-data fine-tuning point.
+cub200_5shot:
+  data_path: configs/cub200_train_5shot.jsonl
+  weight: 1.0

@@ -1,0 +1,4 @@
+# Birds only (taxonomic class Aves) from the full iNat 2021 train.
+inat_aves:
+  data_path: configs/inat_aves_train.jsonl
+  weight: 1.0

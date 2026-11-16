@@ -1,0 +1,4 @@
+# CUB-200 train with latin labels (tools/make_cub_mixed.py): label-vocabulary experiment.
+cub200_latin:
+  data_path: configs/cub200_train_latin.jsonl
+  weight: 1.0

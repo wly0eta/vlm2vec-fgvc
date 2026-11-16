@@ -1,0 +1,4 @@
+# Class-balanced iNat 2021: <=100 images per species over the full train (~1M).
+inat_1m:
+  data_path: configs/inat_train_1m.jsonl
+  weight: 1.0

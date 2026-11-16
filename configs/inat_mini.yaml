@@ -1,0 +1,5 @@
+# iNat 2021 train_mini: 500K images, exactly 50 per species (all 10,000). Built on the Vast node
+# by `bash vast/get_inat.sh train_mini`.
+inat_mini:
+  data_path: configs/inat_train_mini.jsonl
+  weight: 1.0

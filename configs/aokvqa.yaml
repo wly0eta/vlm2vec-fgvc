@@ -1,0 +1,4 @@
+# A-OKVQA multiple-choice train split (~17k).
+aokvqa:
+  data_path: configs/aokvqa_train.jsonl
+  weight: 1.0

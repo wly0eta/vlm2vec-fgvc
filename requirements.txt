@@ -1,0 +1,14 @@
+# Install torch + torchvision SEPARATELY, matched to the machine's CUDA (vast/setup.sh does this);
+# letting pip pull them here risks a CUDA-version mismatch.
+transformers>=5.0
+peft>=0.21
+accelerate
+datasets
+safetensors
+numpy
+pyyaml
+pillow
+matplotlib
+
+# tests
+pytest
